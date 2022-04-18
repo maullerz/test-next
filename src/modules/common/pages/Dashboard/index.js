@@ -10,17 +10,22 @@ const Dashboard = () => {
 
       <br />
 
+      {/*
       <div>
         Standard Routing:
       </div>
       <a href='/account'>
         Go to Account part...
       </a>
+      */}
 
       <br />
 
-      <a href='/account-new'>
+      <div>
         Link to lighthouse-account SPA:
+      </div>
+      <a href='/account-new'>
+        Go to Account part...
       </a>
     </Root>
   )
