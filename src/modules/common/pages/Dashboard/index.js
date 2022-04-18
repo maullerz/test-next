@@ -8,13 +8,6 @@ const Dashboard = () => {
     <Root>
       <h1>Lighthouse Next.js Landing part</h1>
 
-      <div>
-        Client Side Routing (doesn&apos;t work with rewrites):
-      </div>
-      <Link to='/account'>
-        Go to Account part...
-      </Link>
-
       <br />
 
       <div>
@@ -22,6 +15,12 @@ const Dashboard = () => {
       </div>
       <a href='/account'>
         Go to Account part...
+      </a>
+
+      <br />
+
+      <a href='/account-new'>
+        Link to lighthouse-account SPA:
       </a>
     </Root>
   )
