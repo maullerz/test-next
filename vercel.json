@@ -3,6 +3,10 @@
     {
       "source": "/account/:path*",
       "destination": "https://test-account.vercel.app/:path*"
+    },
+    {
+      "source": "/account-new/:path*",
+      "destination": "https://lighthouse-account.vercel.app/:path*"
     }
   ]
 }
